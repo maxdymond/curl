@@ -6,6 +6,11 @@ sudo: false
 
 language: c
 
+addons:
+  apt:
+    packages:
+      - lcov
+
 before_install:
   - pip install --user cpp-coveralls
 
